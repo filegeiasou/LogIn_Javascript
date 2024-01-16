@@ -26,7 +26,7 @@ function check() {
     for(let i=0 ; i<accounts.length ; i++){
         if(name === accounts[i][0] && password === accounts[i][1]){
             localStorage.setItem('currentUser', name);
-            window.location.href = './Admin.html';
+            window.location.href = './admin.html';
             return;
         }
     }
