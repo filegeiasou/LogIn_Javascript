@@ -13,6 +13,13 @@
     <p>This is a simple example of an HTML page with CSS styling.</p>
     <a href="./index.html" class="btn">Click me</a>
 </div>
+<script>
+    // Get the name of the currently logged-in user from localStorage
+    var currentUser = localStorage.getItem('currentUser');
+
+    // Display the name of the currently logged-in user
+    document.getElementById('username').textContent = currentUser;
+</script>
 
 </body>
 </html>
